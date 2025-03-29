@@ -25,7 +25,7 @@ Before delving into the technical details, it's crucial to understand the signif
 
 ## Continual Pretraining (CPT)
 - **Data location and generation**:
-  - The example CPT document data for Professional QA is stored in the `./data` directory. But due to confidentiality requirements, applications for SRCQA's document data should be emailed to duoluo7161@gmail.com. Applications for FintextQA's document data should be emailed to alex.j.chen@hsbc.com.
+  - The example CPT document data for Professional QA is stored in the `./data` directory. But due to confidentiality requirements, applications for SRCQA's document data should be emailed to XXX(anonymized for review). Applications for FintextQA's document data should be emailed to XXX(anonymized for review).
   - General QA document data for CPT can be referred to (https://github.com/GermanT5/wikipedia2corpus)
   - If you want to generate data specifically for CPT, you can use the codes provided in `./data_generator/llm_annotator.ipynb`.
 - **Training process**:
