@@ -1,6 +1,14 @@
-# Read the Docs Before Rewriting: Equip Rewriter with Domain Knowledge via Continual Pre - training
+# Read the Docs Before Rewriting: Equip Rewriter with Domain Knowledge via Continual Pre-training
 
 Before delving into the technical details, it's crucial to understand the significance of this project. By equipping a rewriter with domain knowledge through continual pre-training, we aim to enhance its performance in handling specific tasks more effectively.
+ 
+The repository includes:  
+
+- :rocket: **One-click Data Generation**: Scripts with predefined templates for rewriting SFT data (e.g., `llm_annotator.ipynb`).  
+- :books: **One-click Data Preparation**: Scripts with predefined templates for data preprocessing (e.g., `data_preprocessor.ipynb`)
+- :sparkles: **Parameterized Training**: Complete CPT/SFT scripts with hyperparameters (e.g., `training_args_SFT.yaml`).  
+
+The codebase decouples data generation, CPT, and rewriting modules, allowing practitioners to replace components (e.g., using their own corpus instead of SRC textbooks) without modifying core logic.  The `README` file serves as a tutorial for practitioners.
 
 ## Installation
 1. **Create and activate a conda environment**:
@@ -17,7 +25,7 @@ Before delving into the technical details, it's crucial to understand the signif
    ```
 
 3. **Set your OpenAI API key**:
-   - To use the OpenAI - related features, you need to set your API key. In the terminal, run:
+   - To use the OpenAI-related features, you need to set your API key. In the terminal, run:
    ```bash
    export OPENAI_API_KEY = <your_api_key>
    ```
